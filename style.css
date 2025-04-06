@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/*--Hero Section--*/
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -69,9 +71,12 @@ a {
 
 .hero-photo {
     width: 500px;
-    height: 200px;
+    height: 220px;
     background-color: gray;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-right {

@@ -2,6 +2,8 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -13,8 +15,8 @@ body {
 ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -23,8 +25,29 @@ a {
     font-size: 18px;
 }
 
-.header {
+.hero {
     background-color: #1F2937;
     margin: 0px;
-    padding: 0px;
+    padding: 48px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
 }

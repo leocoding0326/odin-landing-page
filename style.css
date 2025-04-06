@@ -41,6 +41,7 @@ a {
 .hero-text {
     color: #E5E7Eb;
     font-size: 18px;
+    text-align: left;
 }
 
 .hero-button {
@@ -51,10 +52,29 @@ a {
     color: white;
     font-weight: 400;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 48px;
 }
 
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 48px;
+}
+
+.hero-photo {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+}
+
+.hero-right {
+    max-width: 400px;
+    
+}

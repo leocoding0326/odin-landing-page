@@ -83,3 +83,32 @@ a {
     max-width: 400px;
     
 }
+
+/*Info section start*/
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.info-container img {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.info {
+    max-width: 135px;
+}

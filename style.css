@@ -28,7 +28,8 @@ a {
     font-size: 18px;
 }
 
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
     margin: 0px;
     padding: 10px 48px;
@@ -172,4 +173,12 @@ newsteller-text {
     padding: 5px 20px;
     font-size: large;
     border-width: thin;
+}
+
+/*--Footer Section--*/
+
+
+.footer {
+    color: white;
+    text-align: center;
 }

@@ -17,6 +17,7 @@ ul {
     display: flex;
     margin: 0px;
     padding: 0px;
+    gap: 25px;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 .hero {
     background-color: #1F2937;
     margin: 0px;
-    padding: 48px;
+    padding: 10px 48px;
 }
 
 .title {
@@ -51,3 +52,9 @@ a {
     font-weight: 400;
     font-size: 15px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+

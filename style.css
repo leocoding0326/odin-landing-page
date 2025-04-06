@@ -143,3 +143,33 @@ a {
 }
 
 /*--Call to the Action Section--*/
+
+.newsteller-container {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.newsteller-title {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+newsteller-text {
+    font-size: small;
+}
+
+.newsteller-right button {
+    background-color: #3882F6;
+    border: solid;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: large;
+    border-width: thin;
+}
